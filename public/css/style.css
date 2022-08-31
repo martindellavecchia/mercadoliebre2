@@ -8,11 +8,25 @@ body{
     list-style-type:none;
 }
 .logo{
-    width: 300px;
-    display: flex;
+    width: 200px;
 }
 .search-bar{
-    display: flex;
-    justify-content: center;
-    align-items:flex-end;
+    display: none;
+}
+.copy{
+    font-size: 20px;
+}
+
+main img{
+    width: 350px;
+    padding:10px
+    
+}
+main p{
+    padding:0 0 0 10px;
+    margin:0px;
+}
+.home-banner{
+    width: 360px;
+    padding: 0 5px 0 5px
 }
