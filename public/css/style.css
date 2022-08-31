@@ -5,7 +5,7 @@ body{
     background-color: #EAC926;
 }
 .main-nav ul{
-    list-style-type:none;
+    display:none;
 }
 .logo{
     width: 200px;
@@ -28,5 +28,17 @@ main p{
 }
 .home-banner{
     width: 360px;
-    padding: 0 5px 0 5px
+    padding: 5px 5px 0 5px
+}
+.burger-menu{
+    background-color: #03264C;
+    color: #ffffff;
+    display: block;
+    width: 30px;
+    text-align: center;
+    margin: auto;
+    border-radius: 3px;
+    border: 0;
+    padding: 5px;
+
 }
