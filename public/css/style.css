@@ -79,9 +79,9 @@ main p{
 
     }
     .copy{
-        display:block;
-        text-align: center;
-        margin: auto;
+        display:flex;
+        text-align: right;
+        margin-right: 15px;
         font-size: 18px;
     }
     .logo{
