@@ -127,4 +127,11 @@ main p{
         width: 100vw;
         padding: 5px 5px 0 5px
     }
-}
+    .productos{
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content:space-between;
+        
+    }  
+} 
