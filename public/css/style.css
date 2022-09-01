@@ -29,12 +29,26 @@ main p{
     padding:0 0 0 10px;
     margin:0px;
 }
+.titular{
+    font-size: 24px;
+}
+.precio{
+    font-size: 18px;
+}
+.descuento{
+    font-size: 16px;
+}
+.descripcion{
+    font-size:16px ;
+}
 .home-banner{
     width: 100vw;
     padding: 5px 5px 0 5px
 }
 .footer p{
     font-size: 14px;
+    text-align: center;
+    margin: 0 0 10px 0;
 }
 .burger-menu{
     background-color: #03264C;
@@ -48,6 +62,13 @@ main p{
     padding: 5px;
 
 }
+.icono-footer{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
 
 @media(min-width:768px){
     .burger-menu{
