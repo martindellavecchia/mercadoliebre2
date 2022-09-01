@@ -11,8 +11,8 @@ body{
 .logo{
     width: 150px;
 }
-.search-bar{
-    display: none;
+.form{
+    display: block;
 }
 .copy{
     font-size: 18px;
