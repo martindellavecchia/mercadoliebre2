@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: "Roboto";
 }
 body{
     background-color: #EAC926;
@@ -8,13 +9,15 @@ body{
     display:none;
 }
 .logo{
-    width: 200px;
+    width: 150px;
 }
 .search-bar{
     display: none;
 }
 .copy{
-    font-size: 20px;
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
 }
 
 main img{
@@ -30,6 +33,9 @@ main p{
     width: 360px;
     padding: 5px 5px 0 5px
 }
+.footer p{
+    font-size: 14px;
+}
 .burger-menu{
     background-color: #03264C;
     color: #ffffff;
@@ -41,4 +47,62 @@ main p{
     border: 0;
     padding: 5px;
 
+}
+
+@media(min-width:768px){
+    .burger-menu{
+        display: none;
+    }
+    .header-div{
+        display: flex;
+
+    }
+    .copy{
+        display:block;
+        text-align: center;
+        margin: auto;
+        font-size: 18px;
+    }
+    .logo{
+        display: block;
+        width: 130px ;
+    }
+    .search-bar{
+        display:block;
+        font-size: 12px;
+        padding-left: 15px;
+      
+    }
+    .main-nav-div{
+        display: block;
+        margin: auto;
+        padding: 0px;
+        flex-wrap: wrap;
+        
+    }
+    .nav-todo{
+        display: flex;
+        
+    }
+
+    .nav-left{
+        
+        display: flex;
+        list-style-type: none;
+        margin: auto;
+        
+    }
+    .nav-right{
+        display: flex;
+        list-style-type: none;
+        margin: auto;   
+    }
+
+    div li{
+        padding: 0 2px 0 2px;
+    }
+    .home-banner{
+        width: 100vw;
+        padding: 5px 5px 0 5px
+    }
 }

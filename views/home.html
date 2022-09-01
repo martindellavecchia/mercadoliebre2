@@ -7,30 +7,36 @@
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/style.css">
     <script src="https://kit.fontawesome.com/e145d9d2c3.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Roboto&display=swap" rel="stylesheet">
     <title>Mercadoliebre</title>
 </head>
 <body>
-    <header>
+    <header> <div class="header-div">
         <img class="logo" src="/images/logo-mercado-liebre.svg" alt="logo de mercadoliebre">
         <p class="search-bar">Esto es un placeholder para la barra de busqueda</p>
-        <h2 class="copy">Comprá en cuotas y sin tarjeta de crédito</h2>
-        <div class="burger-menu"><i class="fa-solid fa-bars"></i></div>
-        <nav class="main-nav">
+        <p class="copy"><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin tarjeta de crédito</p>
+        <div class="burger-menu"><a href="#"><i class="fa-solid fa-bars"></i></a></div>
+    </div> 
+    <div class="main-nav-div">
+    <nav class="nav-todo">
             <ul class="nav-left">
-                <li><a href="#">Ofertas</a></li>
-                   <li><a href="#">Tiendas Oficiales</a></li>
-                    <li><a href="#">Vender</a></li>
-                    <li><a href="#">Ayuda</a></li>
+                <li><a href="#">  Ofertas </a></li>
+                   <li><a href="#">Tiendas Oficiales   </a></li>
+                    <li><a href="#">  Vender   </a></li>
+                    <li><a href="#">  Ayuda   </a></li>
             </ul>
             <ul class="nav-right">
-                <li><a href="#">Creá tu cuenta</a></li>
-                <li><a href="#">Ingresá</a></li>  
-                <li><a href="#">Mis compras</a></li>
+                <li><a href="#">Creá tu cuenta  </a><i class="fa-regular fa-address-card"></i></li>
+                <li><a href="#">  Ingresá  </a><i class="fa-solid fa-arrow-right-to-bracket"></i></li>  
+                <li><a href="#">  Mis compras  </a><i class="fa-sharp fa-solid fa-basket-shopping"></i></li>
             </ul>
         </nav>
-        <img class="home-banner" src="/images/img-home-banner.jpg" alt="home banner">
+    </div>
     </header>
     <main>
+        <img class="home-banner" src="/images/img-home-banner.jpg" alt="home banner">
         <section>
             <p>Sección: Basado en tu última visita</p>
             <img src="/images/img-cafetera-moulinex.jpg" alt="imagen cafetera">
@@ -70,7 +76,7 @@
             <p><strong>SmartTv Samsung 43"</strong></p>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <section>
             <p>Pagá con tarjeta o en efectivo</p>
             <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
