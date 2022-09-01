@@ -30,7 +30,7 @@ main p{
     margin:0px;
 }
 .home-banner{
-    width: 360px;
+    width: 100vw;
     padding: 5px 5px 0 5px
 }
 .footer p{
@@ -79,7 +79,7 @@ main p{
     }
     .nav-todo{
         display: flex;
-        justify-content: space-between;
+        justify-content:space-around
         
         
     }
@@ -88,15 +88,15 @@ main p{
         
         display: flex;
         list-style-type: none;
-        margin: 0;
+        margin-top: 0;
         padding: 0;
-        
     }
     .nav-right{
         display: flex;
         list-style-type: none;
         margin-top: 0;
-        margin-right: 0;
+        padding: 0;
+        
     }
 
     div li{
