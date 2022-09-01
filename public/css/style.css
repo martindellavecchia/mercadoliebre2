@@ -5,7 +5,7 @@
 body{
     background-color: #EAC926;
 }
-.main-nav ul{
+.main-nav-div{
     display:none;
 }
 .logo{
@@ -75,13 +75,12 @@ main p{
     }
     .main-nav-div{
         display: block;
-        margin: auto;
-        padding: 0px;
-        flex-wrap: wrap;
-        
+         
     }
     .nav-todo{
         display: flex;
+        justify-content: space-between;
+        
         
     }
 
@@ -89,13 +88,15 @@ main p{
         
         display: flex;
         list-style-type: none;
-        margin: auto;
+        margin: 0;
+        padding: 0;
         
     }
     .nav-right{
         display: flex;
         list-style-type: none;
-        margin: auto;   
+        margin-top: 0;
+        margin-right: 0;
     }
 
     div li{
