@@ -133,5 +133,11 @@ main p{
         flex-wrap: wrap;
         justify-content:space-between;
         
-    }  
+    }
+    .titular{
+        padding: 20px 0;
+    }
+    .form{
+        margin-left: 20px;
+    }
 } 
