@@ -71,6 +71,9 @@ main p{
 
 
 @media(min-width:768px){
+    body a{
+        text-decoration: none;
+    }
     .burger-menu{
         display: none;
     }
