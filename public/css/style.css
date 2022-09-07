@@ -2,8 +2,11 @@
     box-sizing: border-box;
     font-family: "Roboto";
 }
-body{
+.header-div{
     background-color: #EAC926;
+}
+body{
+    background-color: lightgray;
 }
 .main-nav-div{
     display:none;
@@ -29,6 +32,7 @@ main p{
     padding:0 0 0 10px;
     margin:0px;
 }
+
 .titular{
     font-size: 24px;
 }
@@ -37,10 +41,15 @@ main p{
 }
 .descuento{
     font-size: 16px;
+    color: #39b54a;
 }
 .descripcion{
     font-size:16px ;
     display: none;
+}
+
+.camioncito{
+    color: #39b54a;
 }
 .home-banner{
     width: 100vw;
@@ -49,7 +58,12 @@ main p{
     font-size: 14px;
     text-align: center;
     margin: 0 0 10px 0;
+    
 }
+.footer{
+    background-color: lightgray;
+}
+
 .burger-menu{
     background-color: #03264C;
     color: #ffffff;
@@ -60,7 +74,6 @@ main p{
     border-radius: 3px;
     border: 0;
     padding: 5px;
-    margin-bottom: 10px;
 
 }
 .icono-footer{
@@ -76,12 +89,14 @@ main p{
     
 }
 .producto{
-    border-top: solid 1px #ebebeb;
     margin-bottom: 10px;
-    padding: 15px;
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    background-color: white;
 }
-
+.info-producto{
+    padding: 15px;   
+    border-top: solid 1px #ebebeb;
+    
+}
 
 
 
@@ -151,6 +166,11 @@ main p{
         flex-wrap: wrap;
         justify-content:space-between;
         
+    }
+
+    .producto{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+
     }
     .titular{
         padding: 20px 0;
