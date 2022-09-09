@@ -1,9 +1,16 @@
 *{
     box-sizing: border-box;
     font-family: "Roboto";
+    margin: 0;
+    padding: 0;
 }
 .header-div{
     background-color: #EAC926;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: space-between;
+    padding: 0;
+
 }
 body{
     background-color: lightgray;
@@ -12,19 +19,27 @@ body{
     display:none;
 }
 .logo{
-    width: 150px;
+    width: 50%;
+    margin: 0;
+    padding: 0;
 }
 .form{
-    display: block;
-    margin-left: 5px;
+margin:0;
+padding: 0;
+width: 50%;
 }
+
+.form input{
+    width: 80%;
+}
+
 .copy{
     font-size: 18px;
     text-align: center;
     margin: auto;
 }
 
-main img{
+img{
     width: 100%;
     
 }
@@ -48,12 +63,7 @@ main p{
     display: none;
 }
 
-.camioncito{
-    color: #39b54a;
-}
-.home-banner{
-    width: 100vw;
-}
+
 .footer p{
     font-size: 14px;
     text-align: center;
@@ -83,22 +93,44 @@ main p{
     margin-top: 15px;
 }
 
-.productos{
-    width: 90vw;
-    margin: auto;
-    
-}
+
 .producto{
     margin-bottom: 10px;
     background-color: white;
+    
+   
 }
 .info-producto{
     padding: 15px;   
     border-top: solid 1px #ebebeb;
     
 }
+.info-producto{
+    display: flex;
+}
 
 
+.camioncito{
+    color: #39b54a;
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: relative;
+    right: -250px;
+    bottom: 50px;
+    }
+
+    .precio{
+        flex: 3 ;
+    }
+    .descuento{
+        flex:7;
+    }
 
 @media(min-width:361px){
     body a{
@@ -112,17 +144,14 @@ main p{
 
     }
     .copy{
-        display:flex;
         text-align: right;
         margin-right: 15px;
         font-size: 18px;
     }
     .logo{
-        display: block;
         width: 130px ;
     }
     .search-bar{
-        display:block;
         font-size: 12px;
         padding-left: 15px;
       
@@ -134,7 +163,6 @@ main p{
     .nav-todo{
         display: flex;
         justify-content:space-around
-        
         
     }
 
@@ -156,19 +184,16 @@ main p{
     div li{
         padding: 0 2px 0 2px;
     }
-    .home-banner{
-        width: 100vw;
-        padding: 5px 5px 0 5px
-    }
+   
     .productos{
         display: flex;
-        flex-direction:row;
         flex-wrap: wrap;
         justify-content:space-between;
         
     }
 
     .producto{
+        width: 300px;
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
 
     }
@@ -177,9 +202,6 @@ main p{
     }
     .form{
         margin-left: 20px;
-    }
-    .descripcion{
-        display: block;
     }
 } 
 
