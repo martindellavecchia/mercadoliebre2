@@ -26,7 +26,7 @@ body{
 .form{
 margin:0;
 padding: 0;
-width: 50%;
+width: 30%;
 }
 
 .form input{
@@ -84,7 +84,11 @@ main p{
     border-radius: 3px;
     border: 0;
     padding: 5px;
+}
 
+.burger-menu i{
+    text-decoration: none;
+    color: #ffffff;
 }
 .icono-footer{
     text-align: center;
@@ -121,8 +125,8 @@ main p{
     background-color: #FFF;
     border-radius: 50%;
     position: relative;
-    right: -250px;
-    bottom: 50px;
+    right: -300px;
+    bottom: 30px;
     }
 
     .precio{
@@ -133,6 +137,13 @@ main p{
     }
 
 @media(min-width:361px){
+    .camioncito{
+        right: -240px;
+        }
+    .descripcion{
+        display: block;
+    }
+
     body a{
         text-decoration: none;
     }
@@ -162,7 +173,7 @@ main p{
     }
     .nav-todo{
         display: flex;
-        justify-content:space-around
+        justify-content:space-between;
         
     }
 
@@ -207,9 +218,7 @@ main p{
 
 @media(min-width:769px)
 {
-    .descripcion{
-        display: block;
-    }
+    
     .burger-menu{
         display: none;
     }
