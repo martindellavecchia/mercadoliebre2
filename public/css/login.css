@@ -19,7 +19,8 @@ form input{
 }
 
 
-.username, .password{
+.username,
+.password{
     padding: 5px;
     margin: auto;
 
@@ -27,4 +28,12 @@ form input{
 
 .boton{
     padding: 10px;;
+}
+
+form button{
+    padding: 5px;
+    border-radius: 4px;
+    background-color: #03264C;
+    color: white;
+    
 }

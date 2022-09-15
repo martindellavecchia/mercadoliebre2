@@ -9,21 +9,35 @@ form input, label{
     border-radius: 5px;
     border: none;
     width: 300px;
+    padding: 10px;
     margin: auto;
     
 }
+
+
 form p{
     margin: auto;
     padding: 10px;
     font-weight: bold;
 }
 
+
+
 form {
     padding: 10px;
 }
-.boton-submit, .boton-reset{
-    padding: 5px;
+.boton-submit,
+.boton-reset{
+    padding:10px;
     margin: auto;
+}
+
+form button{
+    padding: 5px;
+    border-radius: 4px;
+    background-color: #03264C;
+    color: white;
+    
 }
 
 .na,
