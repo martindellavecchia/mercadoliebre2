@@ -54,3 +54,7 @@ form button:hover{
     padding: 5px;
     margin: auto;
 }
+
+.footer-alineado{
+    display: flex;
+}

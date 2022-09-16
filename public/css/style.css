@@ -64,9 +64,12 @@ main p{
 }
 .descripcion{
     font-size:16px ;
-    color: #666;
+    color: white;
     transition: all 600ms;
-    display:none;
+}
+
+.descripcion:hover{
+    color: #666666;
 }
 
 .footer p {
