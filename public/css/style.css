@@ -58,9 +58,17 @@ main p{
     font-size: 16px;
     color: #39b54a;
 }
-.descripcion{
+ .descripcion{
     font-size:16px ;
-    display: none;
+    color: white;
+    transition: all 600ms;
+    
+}
+
+.descripcion:hover{
+    font-size:16px ;
+    color: #666666;
+    
 }
 
 
@@ -95,7 +103,15 @@ main p{
     font-size: 2em;
     margin-bottom: 10px;
     margin-top: 15px;
+    color: #03264C;
+    transition: all 450ms;
 }
+
+.icono-footer:hover{
+    color: #0022AA;
+}
+
+
 
 
 .producto{
@@ -127,6 +143,12 @@ main p{
     position: relative;
     right: -300px;
     bottom: 30px;
+    transition: all 450ms;
+    }
+
+    .camioncito:hover{
+        transform: rotate(-90deg);
+
     }
 
     .precio{
@@ -136,13 +158,12 @@ main p{
         flex:7;
     }
 
+ 
+
 @media(min-width:361px){
     .camioncito{
         right: -240px;
         }
-    .descripcion{
-        display: block;
-    }
 
     body a{
         text-decoration: none;
@@ -214,6 +235,11 @@ main p{
 
     .producto{
         width: 300px;
+        transition: all 450ms;
+    }
+
+    .producto:hover{
+
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
 
     }
@@ -232,4 +258,7 @@ main p{
         display: none;
     }
 
+.footer-alineado{
+    display: flex;
+}
 }

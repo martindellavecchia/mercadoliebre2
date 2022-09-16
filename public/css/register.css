@@ -37,7 +37,11 @@ form button{
     border-radius: 4px;
     background-color: #03264C;
     color: white;
-    
+    transition: all 450ms;
+}
+
+form button:hover{
+    background-color: #0022AA;
 }
 
 .na,
