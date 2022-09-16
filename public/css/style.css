@@ -252,4 +252,8 @@ main p{
   .footer-alineado{
     display: flex;
   }
+
+  .producto{
+    width: 23%;
+  }
 }
