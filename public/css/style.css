@@ -19,10 +19,12 @@ a {
   flex-wrap: wrap;
   justify-items: space-between;
   padding: 0;}
-.main-nav-div {
+
+  .main-nav-div {
   display: none;
   background-color: #eac926;
 }
+
 .logo{
   width: 50%;
   margin: 0;
