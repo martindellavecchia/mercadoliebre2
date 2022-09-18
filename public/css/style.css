@@ -12,6 +12,10 @@
     padding: 0;
 
 }
+
+.main-nav-div{ 
+    background-color: #EAC926;
+}
 body{
     background-color: lightgray;
 }

@@ -18,10 +18,11 @@ app.get("/login", (req, res) => {
     res.sendFile(path.resolve(__dirname, "./views/login.html"))
 })
 app.post("/login", (req, res) =>{
-    console.log(res.body)
+    console.log(req.body)
     res.redirect("/");
 })
 
 app.post("/register", (req, res) =>{
+    console.log(req.body)
     res.redirect("/");
 })
