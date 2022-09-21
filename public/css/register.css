@@ -55,18 +55,15 @@ form button:hover{
     margin: auto;
 }
 
-.footer-alineado{
-    display: flex;
-}
-
 section .copyright{
     text-align: left;
   }
 
-  @media(min-width:769px)
-{
-  .footer-alineado{
-    display: flex;
-  }
-}
+  @media(min-width:769px){
 
+    .footer-alineado{
+        display: flex;
+    }
+    
+    }
+    

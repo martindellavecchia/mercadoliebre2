@@ -45,13 +45,11 @@ form button:hover{
     background-color: #0022AA;
     cursor: pointer;
 }
+
+@media(min-width:769px){
+
 .footer-alineado{
     display: flex;
 }
 
-@media(min-width:769px)
-{
-  .footer-alineado{
-    display: flex;
-  }
 }
