@@ -67,11 +67,11 @@
     </header>
     <main>
         <form action="/register" method="post">
-            <div class="na"><input type="text" name="nombre" placeholder="Ingresa tu nombre y apellido"></div>
+            <div class="na"><input type="text" name="nombre" placeholder="Ingresa tu nombre y apellido" required></div>
             <div class="usr"><input type="text" name="usuario" placeholder="Nombre de usuario" minlength="8" required></div>
            <label for="fbac">Fecha de Nacimiento</label>
            <div class="fnac"> <input type="date" name="fnac" placeholder="Fecha de Nacimiento" id="fnac"></div>
-            <div class="eml"><input type="email" name="email" placeholder="Email"></div>
+            <div class="eml"><input type="email" name="email" placeholder="Email" required></div>
            <div class="dom"><input type="text" name="domicilio" placeholder="Domicilio"></div>
             <p>Perfil de usuario</p>
            <label for="compra">Compra</label>
@@ -98,13 +98,6 @@
             <div class="boton-reset"> <button type="reset">Limpiar formulario</button></div> 
        
         </form>
-
-
-
-
-
-
-
     </main>
     <footer class="footer">
       <div class="footer-alineado">

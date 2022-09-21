@@ -9,7 +9,6 @@ form input, label{
     border-radius: 5px;
     border: none;
     width: 300px;
-    padding: 10px;
     margin: auto;
     
 }
@@ -32,7 +31,8 @@ form {
     margin: auto;
 }
 
-form button{
+.boton-submit button,
+.boton-reset button{
     padding: 5px;
     border-radius: 4px;
     background-color: #03264C;
