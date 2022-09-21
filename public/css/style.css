@@ -31,9 +31,9 @@ a {
   padding: 0;
 }
 .form{
-  margin:0;
+  margin:10px;
   padding: 0;
-  width: 30%;
+  width: 40%;
 }
 
 .form input{
@@ -163,6 +163,10 @@ main p{
   flex:7;
 }
 
+section .copyright{
+  text-align: left;
+}
+
 @media (min-width: 361px) {
 
   .descripcion {
@@ -256,16 +260,11 @@ main p{
     display: none;
   }
 
-  .footer-alineado{
-    display: flex;
-  }
-
-section .copyright{
-  text-align: left;
-}
-  
-
   .producto{
     width: 23%;
   }
+  .footer-alineado{
+    display: flex;
+  }
+  
 }
