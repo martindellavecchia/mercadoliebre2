@@ -87,6 +87,10 @@ main p{
 }
 
 .burger-menu{
+  background-color: #eac926;
+}
+
+.burger-menu i{
   background-color: #03264C;
   color: #ffffff;
   display: block;
@@ -98,10 +102,7 @@ main p{
   padding: 5px;
 }
 
-.burger-menu i{
-  text-decoration: none;
-  color: #ffffff;
-}
+
 .icono-footer{
   text-align: center;
   font-size: 2em;
