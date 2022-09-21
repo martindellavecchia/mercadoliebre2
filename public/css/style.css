@@ -194,14 +194,13 @@ main p{
 
   }
   .main-nav-div{
-    display: flex;
-    justify-content: space-evenly;
+    display: inline-block;
+    width: 100%;
 
   }
   .nav-todo{
     display: flex;
-
-
+    justify-content: space-around;
 
   }
 
@@ -220,9 +219,9 @@ main p{
 
   .nav-left a,
   .nav-right a{
-    font-size: 12px;
+    font-size: 14px;
     text-decoration: none;
-    color: #666666;
+    color: #000;
   }
 
   div li{
