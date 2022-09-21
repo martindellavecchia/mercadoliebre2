@@ -32,6 +32,7 @@ a {
 }
 .form{
   margin:10px;
+  margin-right: 0%;
   padding: 0;
   width: 40%;
 }
@@ -43,8 +44,9 @@ a {
 
 .copy{
   font-size: 18px;
-  text-align: center;
+  text-align: justify;
   margin: auto;
+  display: flex;
 }
 
 img{
