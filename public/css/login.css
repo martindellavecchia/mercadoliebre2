@@ -48,3 +48,10 @@ form button:hover{
 .footer-alineado{
     display: flex;
 }
+
+@media(min-width:769px)
+{
+  .footer-alineado{
+    display: flex;
+  }
+}
