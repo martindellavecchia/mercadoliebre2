@@ -65,15 +65,15 @@ main p{
   font-size: 16px;
   color: #39b54a;
 }
-.descripcion{
-    font-size:16px ;
+ .descripcion{
+  font-size:16px ;
     color: white;
     transition: all 600ms;
 }
 
 .descripcion:hover{
     color: #666666;
-}
+  }
 
 .footer p {
   font-size: 14px;
@@ -257,6 +257,11 @@ main p{
   .footer-alineado{
     display: flex;
   }
+
+section .copyright{
+  text-align: left;
+}
+  
 
   .producto{
     width: 23%;

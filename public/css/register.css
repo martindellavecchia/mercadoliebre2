@@ -58,3 +58,7 @@ form button:hover{
 .footer-alineado{
     display: flex;
 }
+
+section .copyright{
+    text-align: left;
+  }
